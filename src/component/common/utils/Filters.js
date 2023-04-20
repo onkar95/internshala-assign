@@ -4,7 +4,6 @@ import "./Search&filter.css";
 
 const Filters = ({ AllProducts, setFiltered }) => {
 
-    const [setSearchAval] = useState("");
     const [FilterByPrice, setFilterByPrice] = useState('')
 
     const filterbyFilterByPrice = async (value) => {
@@ -32,7 +31,6 @@ const Filters = ({ AllProducts, setFiltered }) => {
 
 
     const handelClear = () => {
-        setSearchAval("")
         setFiltered(AllProducts)
         setFilterByPrice("select")
     }
