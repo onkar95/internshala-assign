@@ -55,6 +55,7 @@ const Register = () => {
 
     useEffect(() => {
         if (userCreated) alert("added user")
+        // eslint-disable-next-line 
     }, [loading]);
     return (
         <>
