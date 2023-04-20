@@ -1,0 +1,1 @@
+export const productCategory = ["select", "clothing", 'vehicles', 'property', 'gadgets']
